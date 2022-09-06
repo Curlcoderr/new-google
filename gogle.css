@@ -1,0 +1,107 @@
+ ul li{
+    list-style-type: none;
+    font-size: 16px;
+}
+.link{
+    margin:25px 0 25px 0;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+ul li:last-child{
+    padding-left: 10px;
+}
+ ul{
+    display: flex;
+    
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.other{
+    margin: 25px;
+    width: 250px;
+
+}
+i{
+    width: 15px;
+    height: 15px;
+
+}
+.other ul li{
+    padding-left: 10px;
+}
+button{
+    background-color: rgb(68,132,241);
+border-radius: 3px;
+border: white;
+color: white;
+padding: 5px 10px;
+margin-bottom: 5px;
+width: 75px;
+height: 25px;
+}
+.other ul li:last-child{
+ margin-top: -5px;   
+}
+.logo{
+text-align: center;
+margin-top: 100px;
+
+}
+img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+input{
+    width: 450px;
+    height:25px ;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: 2px solid rgb(192, 188, 188);
+    background-image: url("images/voicelogo.png");
+    background-repeat: no-repeat;
+    background-size:20px 23px;
+    background-position:427px;
+}
+.ico{
+    position: relative;
+}
+.ico i{
+    position: absolute;
+    left:540px;
+    top:28px
+}
+.last{
+    background-color: rgb(242,242,242);
+    width: 100%;
+    height: 50px;
+   margin-top: 255px;
+display: flex;
+justify-content: space-between;
+ 
+}
+.ilk{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.ilk ul li:first-child{
+    padding-left:0px;
+}
+.ilk ul li{
+    padding-left: 15px;
+}
+.son{
+    padding-right: 15px;
+}
+.son ul li{
+    padding-left: 15px;
+}
